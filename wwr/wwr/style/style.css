@@ -1,8 +1,6 @@
 content {
     max-width: 1600px;
     margin: 0 auto;
-    text-align: center;
-    background-color: #476C9B;
 }
 
 body {
@@ -47,7 +45,7 @@ nav a:hover {
 }
 
 .msg h2 {
-    background-color: #E5F4E3;
+    background-color: #476C9B;
     color: #984447;
 }
 
@@ -95,8 +93,8 @@ footer a {
 }
 
 footer a:hover {
-    background-color: #E5F4E3;
-    color: #984447;
+    background-color: #FFFFFF;
+    color: #476C9B;
 }
 
 footer p {
@@ -108,5 +106,11 @@ footer p a:hover {
 }
 
 .icon {
+    width: 80px;
+}
+.logo {
+    width: 80px;
+}
+#hero-img {
     width: 80px;
 }
