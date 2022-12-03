@@ -43,8 +43,8 @@ body {
     background-color: #f1f7ed;
 }
 header {
-    color: #897c80;
-    background-color: #897c80;
+max-width: 100%;
+background-color: #897c80;
 }
 nav a {
     text-align: center;
@@ -57,6 +57,7 @@ nav a {
 nav {
     display: flex;
     justify-content: space-around;
+    background-color: #897c80;
 }
 nav a:hover {
     background-color: #f1f7ed;
@@ -65,11 +66,12 @@ nav a:hover {
     text-decoration: none;
 }
 .logo_top {
-    height: 400px;
-    width: 400px;
+    width: 200px;
+    height: 200px;
     background-color: #000000;
-    padding: 20px;
+    padding: 5px;
     border-radius: 10px;
+    align-content: center;
     }
 h1,
 h2,
@@ -109,7 +111,11 @@ h3 {
 }
 
 h4 {
-    font-size: 1.5em;
+    font-size: 2.5em;
+    margin: 1.5em;
+    text-align: center;
+    color: #897c80;
+
 }
 
 h5 {
@@ -125,8 +131,8 @@ img {
 }
 
 p {
-    padding: 0;
-    margin: 0;
+    padding: 20px;
+    margin: 20px;
     font-size: 1.25em;
 }
 
@@ -184,6 +190,7 @@ a {
 }
 
 .h_diet-img {
+    max-width: 1600px;
     width: 50%;
     padding: 20px;
     background-color: #d19c1d ;
@@ -314,8 +321,22 @@ footer .social img {
   
   .container {
     padding: 64px;
+    background-color: #243e36;
   }
   
+  .diet_img {
+    max-width: 66%;
+    padding: 20px;
+    background-color: #d19c1d;
+    justify-content: space-evenly;
+  }
+
+  .diet_right_img {
+    max-width: 66%;
+    padding: 20px;
+    background-color: #d19c1d;
+float: right;
+  }
   /* Clear floats */
   .row:after {
     content: "";
@@ -345,3 +366,15 @@ footer .social img {
       text-align: center;
     }
   }
+  .column {
+    float: left;
+  }
+  
+  .left, .right {
+    width: 25%;
+  }
+  
+  .middle {
+    width: 50%;
+  }
+  
